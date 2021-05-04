@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Assistant', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #1a52f9;
+    background-image: linear-gradient(19deg, #1a52f9 0%, #8721ff 84%);
+    position: relative;
+}
+img{
+    width: 69%;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+}
+nav ul li a{
+    font-size: 32px ;
+}
+.button{
+    font-size: 31px;
+}
+nav ul li {
+    padding: 0 15px;
+}
+.active, ul li:hover {
+    border-top: 2px solid #5dade2;
+    border-bottom: 2px solid #5dade2;
+}
+.about h2, .edu h2, .skill h2{
+    font-size: 51px;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-top: 5px solid #5dade2;
+    border-bottom: 5px solid #5dade2;
+}
+.about_me h1{
+    font-size: 37px;
+    text-transform: capitalize;
+    color: white;
+}
+.about_me p, .edu_info p{
+    font-size: 23px;
+    font-weight: 400;
+    color: white;
+}
+.skill_info h3{
+    color: white;
+    font-size: 35px;
+}
+.edu_info div{
+    font-weight: 100;
+    color: #9f9696;
+}
+.btn1{
+    margin-top: 40px;
+}
+.skill{
+    text-align: center;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 575px){
+    nav ul li a{
+        font-size: 21px ;
+    }
+    .button{
+        font-size: 21px;
+    }
+
+    .about h2, .edu h2, .skill h2{
+        font-size: 30px;
+    }
+    .about_me h1{
+        font-size: 23px;
+    }
+    .about_me p, .edu_info p{
+        font-size: 15px;
+    }
+    img{
+        margin-top: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+    .about, .edu{
+        margin-left: 10px;
+    }
+    .skill_info h3{
+        color: white;
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 700px){
+    .about h2, .edu h2, .skill h2{
+        font-size: 30px;
+    }
+    .about_me h1{
+        font-size: 23px;
+    }
+    .about_me p, .edu_info p{
+        font-size: 15px;
+    }
+    img{
+        width: 86%;
+        margin-top: 8.5rem;
+    }
+ }
+@media only screen and (min-width: 701px) and (max-width: 900px){
+    img{
+        width: 86%;
+        margin-top: 8.5rem;
+    }
+}
+@media only screen and (min-width: 901px) and (max-width: 1024px){
+    img{
+        width: 81%;
+        margin-top: 6.5rem;
+    }
+}
